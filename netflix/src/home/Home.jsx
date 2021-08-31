@@ -1,9 +1,10 @@
+import Navbar from "../components/navbar/Navbar";
 import "./home.scss";
 
 const home = () => {
     return (
         <div className="home">
-           hello 
+            <Navbar />
         </div>
     )
 }
