@@ -1,0 +1,147 @@
+.Nav {
+    display: flex;
+    width: 100%;
+    padding: 13px 16px;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    transition: all 0.5s ease-in;
+    color: wheat;
+}
+
+.Nav__1 {
+    flex-basis: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.Nav__2 {
+    flex-basis: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Nav_black {
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0.7));
+}
+
+.Nav_logo {
+    width: 90px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.Nav_smiley {
+    width: 45px;
+    object-fit: contain;
+}
+
+.links {
+    display: flex;
+}
+
+.link {
+    color: #fff;
+    font-weight: lighter;
+    font-size: 19px;
+    margin-left: 13px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logout {
+    background: #e50914;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+.icons {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+    .Nav__1 {
+        flex-basis: 80%;
+    }
+    .Nav__2 {
+        flex-basis: 20%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Nav__1 {
+        flex-basis: 70%;
+    }
+    .Nav__2 {
+        flex-basis: 30%;
+    }
+    .icons {
+        font-size: 20px;
+    }
+    .Nav_smiley {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 814px) {
+    .Nav__1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logout {
+        font-size: 10px;
+        padding: 13px;
+    }
+    .logout {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 651px) {
+    .Nav__1 {
+        flex-basis: 80%;
+    }
+    .Nav__2 {
+        flex-basis: 20%;
+    }
+    .link {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .Nav_logo {
+        width: 70px;
+    }
+    .icons {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .Nav_smiley {
+        display: none;
+    }
+    .logout {
+        font-size: 9px;
+        padding: 10px;
+    }
+    .link {
+        font-size: 13px;
+        margin-left: 9px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .link {
+        font-size: 11px;
+        margin-left: 8px;
+    }
+}

@@ -1,0 +1,28 @@
+.signInPage {
+    background-image: url("/images/pics/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 100px 0;
+}
+
+.netflix_logo {
+    height: 70px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .netflix_logo {
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .netflix_logo {
+        height: 50px;
+    }
+}

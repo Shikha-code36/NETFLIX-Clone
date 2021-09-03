@@ -1,0 +1,92 @@
+.Header {
+    min-height: 60vh;
+    color: white;
+    padding-left: 90px;
+    padding-top: 140px;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 30px;
+}
+
+.Header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.Header p {
+    width: 80%;
+    line-height: 20px;
+    padding-top: 16px;
+    font-size: 16px;
+}
+
+.Header_btns button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 3px;
+    margin-right: 32px;
+    padding: 20px 32px;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.Header_btns button:hover {
+    color: #000;
+    background-color: #e6e6e6;
+    transition: all 0.2s ease;
+}
+
+.playIcon,
+.addIcon {
+    font-size: 20px;
+    margin-right: 5px;
+    transform: translateY(3px);
+}
+
+.addIcon {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+    .Header {
+        padding-left: 70px;
+    }
+    .Header h1 {
+        font-size: 40px;
+    }
+    .Header_btns button {
+        margin-right: 32px;
+        padding: 18px 28px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .Header {
+        padding-left: 40px;
+    }
+    .Header h1 {
+        font-size: 35px;
+    }
+    .Header_btns button {
+        margin-right: 25px;
+        padding: 15px 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Header p {
+        width: 85%;
+        line-height: 17px;
+        font-size: 13px;
+    }
+    .Header h1 {
+        font-size: 30px;
+    }
+    .Header_btns button {
+        margin-right: 20px;
+        padding: 12px 22px;
+    }
+}

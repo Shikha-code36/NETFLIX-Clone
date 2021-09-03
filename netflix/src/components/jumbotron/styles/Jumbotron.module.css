@@ -1,0 +1,75 @@
+.jumbotron img {
+    height: 400px;
+    object-fit: contain;
+}
+
+.jumbotron__row {
+    min-height: 66.6vh;
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
+}
+
+.jumbotron__row:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.jumbotron__row_col {
+    width: 60%;
+}
+
+.jumbotron__row_col h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.jumbotron__row_col p {
+    font-size: 25px;
+}
+
+.border_line {
+    height: 13px;
+    width: 100%;
+    background-color: rgb(29, 28, 28);
+}
+
+@media screen and (max-width: 1400px) {
+    .jumbotron__row {
+        margin: 0 40px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .jumbotron__row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .jumbotron__row_col {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .jumbotron__row_col h2 {
+        font-size: 40px;
+        font-weight: 700;
+        margin: 20px 0;
+    }
+    .jumbotron__row_col p {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .jumbotron img {
+        height: 200px;
+        object-fit: contain;
+    }
+    .jumbotron__row_col h2 {
+        font-size: 25px;
+    }
+    .jumbotron__row_col p {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+}

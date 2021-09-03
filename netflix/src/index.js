@@ -1,18 +1,15 @@
 import React from 'react';
-import { render } from 'react-dom';
-import 'normalize.css';
-import App from './app';
-import reportWebVitals from './reportWebVitals';
-import { GlobalStyles } from './global-styles';
-import { firebase } from './lib/firebase.prod';
-import { FirebaseContext } from './context/firebase';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import {BrowserRouter} from 'react-router-dom';
+import {UserProvider} from "./contexts/UserContext";
 
-render(
-    <>
-        <FirebaseContext.Provider value={{ firebase }}>
-            <GlobalStyles />
-            <App />
-        </FirebaseContext.Provider>
-    </>, document.getElementById('root'));
 
-reportWebVitals();
+
+ReactDOM.render(<UserProvider>
+                    <BrowserRouter>
+                        <App/>
+                    </BrowserRouter>
+                </UserProvider>, document.getElementById("root"));
+

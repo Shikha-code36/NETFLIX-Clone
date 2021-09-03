@@ -1,0 +1,61 @@
+.border_line {
+    height: 13px;
+    width: 100%;
+    background-color: rgb(29, 28, 28);
+}
+
+.faqs__container {
+    width: 55%;
+    margin: 0 auto;
+}
+
+
+/* .faqs {
+    width: 55%;
+    margin: 0 auto;
+} */
+
+.faqs h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.ready_to_watch {
+    margin: 70px 0;
+    width: 100%;
+}
+
+.ready_to_watch p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .faqs h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .faqs__container {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .faqs h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .faqs__container {
+        width: 100%;
+    }
+    .ready_to_watch {
+        margin: 70px auto;
+        width: 85%;
+    }
+}
