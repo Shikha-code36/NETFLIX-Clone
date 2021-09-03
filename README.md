@@ -6,16 +6,16 @@ If you are unable to sign up from front page you need to click on sign in and th
 ## Screenshots
 
 * Registration Page
-![Preview1](preview1.JPG?raw=true)
+![](https://i.imgur.com/iNeWP5w.jpg)
 
 * Login Page
-![Preview2](preview2.JPG?raw=true)
+![](https://i.imgur.com/WQq6W7X.jpg)
 
 * Profile Page
-![Preview4](preview4.JPG?raw=true)
+![](https://i.imgur.com/HyttKpm.jpg)
 
 * Home/Browse Page
-![Preview3](preview3.JPG?raw=true)
+![](https://i.imgur.com/h5b5MoI.jpg)
 
 ### Steps to run
 
