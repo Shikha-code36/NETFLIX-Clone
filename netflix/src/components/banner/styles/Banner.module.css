@@ -1,0 +1,106 @@
+.Banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://assets.nflxext.com/ffe/siteui/vlv3/84b453b4-0d46-4f2c-bd44-81aa6c19c6b5/555b0415-4928-40b4-8169-d0cbcbb2d3cb/IN-en-20201116-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding-bottom: 90px;
+}
+
+.Banner__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.Banner img {
+    height: 70px
+}
+
+.Banner__btn {
+    border: none;
+    outline: none;
+    padding: 15px 28px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(192, 20, 20);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.Banner__main {
+    padding-top: 20vh;
+    text-align: center;
+    min-height: 60vh;
+    margin: 0 auto;
+    max-width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Banner__heading {
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.Banner__main p {
+    margin: 15px 0;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.Banner__main p:nth-child(3) {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+    .Banner__main {
+        padding: 10vh 0;
+    }
+    .Banner__heading {
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .Banner__main {
+        max-width: 70%;
+    }
+    .Banner img {
+        height: 55px
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .Banner {
+        min-height: 60vh;
+        padding-bottom: 0;
+    }
+    .Banner__heading {
+        font-size: 30px;
+        line-height: 28px;
+    }
+    .Banner__main p {
+        margin: 15px 0;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .Banner__main p:nth-child(3) {
+        font-size: 19px;
+    }
+    .Banner__main {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Banner__btn {
+        padding: 11px 22px;
+    }
+    .Banner img {
+        height: 47px;
+    }
+}
