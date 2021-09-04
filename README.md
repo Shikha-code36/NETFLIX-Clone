@@ -1,6 +1,6 @@
 # Netflix clone 
 
-* Visit the live demo [here](https://netflix-lite.netlify.app/)
+* Visit the live demo [here](https://netflixclone-5d28a2.netlify.app/)
 
 
 ## Screenshots
