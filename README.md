@@ -1,5 +1,7 @@
 # Netflix clone 
-* Visit the live demo [here](https://netflixclone-5d28a2.netlify.app/)
+
+* Visit the live demo [here](https://netflix-lite.netlify.app/)
+
 
 ## Screenshots
 
@@ -22,7 +24,7 @@
 
 * **npm start**
 
-* if it doesn't work you need first use command
+* if it doesn't work then you need to first use command
 **npm install** then **npm start**
 
 * Also you need to setup firebase for deployement 
