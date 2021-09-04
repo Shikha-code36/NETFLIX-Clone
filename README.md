@@ -1,5 +1,7 @@
 # Netflix clone 
+
 * Visit the live demo [here](https://netflix-lite.netlify.app/)
+
 
 ## Screenshots
 
@@ -12,6 +14,11 @@
 * Home/Browse Page
 ![](https://i.imgur.com/3dfBb7Y.jpg)
 
+## Instructions
+
+* You need to paste your own firebase configuration you will that in **src/firebase/firebaseConfig.js**
+
+* You need to paste your owm tmDB api key in **src/axios.js**
 
 ### Steps to run
 

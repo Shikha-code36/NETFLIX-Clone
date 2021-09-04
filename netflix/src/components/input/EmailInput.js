@@ -6,7 +6,7 @@ function EmailInput(props) {
     return (
         <div className={styles.Email__input}>
                       <input type="email" placeholder="Email Address"/>
-                      <button className={styles.Email__input_btn} onClick={() => props.history.push("/signUp")}>Get Started ></button>
+                      <button className={styles.Email__input_btn} onClick={() => props.history.push("/signUp")}>Get Started </button>
                 </div>
     )
 }
