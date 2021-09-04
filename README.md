@@ -1,7 +1,5 @@
 # Netflix clone 
-* Visit the live demo [here](https://netflix-lite.netlify.app/)
-
-If you are unable to sign up from front page you need to click on sign in and then scroll down to click on signup. It will let you sign in and you can login.
+* Visit the live demo [here](https://netflixclone-5d28a2.netlify.app/)
 
 ## Screenshots
 
@@ -13,6 +11,12 @@ If you are unable to sign up from front page you need to click on sign in and th
 
 * Home/Browse Page
 ![](https://i.imgur.com/3dfBb7Y.jpg)
+
+## Instructions
+
+* You need to paste your own firebase configuration you will that in **src/firebase/firebaseConfig.js**
+
+* You need to paste your owm tmDB api key in **src/axios.js**
 
 ### Steps to run
 
