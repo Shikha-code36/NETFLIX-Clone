@@ -16,7 +16,7 @@
 
 ## Instructions
 
-* You need to paste your own firebase configuration you will that in **src/firebase/firebaseConfig.js**
+* You need to paste your own firebase configuration, you will find that in **src/firebase/firebaseConfig.js**
 
 * You need to paste your owm tmDB api key in **src/axios.js**
 
@@ -27,7 +27,6 @@
 * if it doesn't work then you need to first use command
 **npm install** then **npm start**
 
-* Also you need to setup firebase for deployement 
 
 
 
